@@ -63,6 +63,9 @@ html {
   color: #b36d61;
   opacity: .8;
 }
+.box .img img {
+  box-shadow: 0 0 2px rgba(0,0,0,.2);
+}
 
 @media (max-width: 640px) {
   .box {
