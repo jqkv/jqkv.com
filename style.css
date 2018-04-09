@@ -24,7 +24,7 @@ html {
 }
 .box .list {
   list-style: none;
-  margin-bottom: 150px;
+  margin-bottom: 300px;
   padding-left: 5px;
 }
 .box .list dt {
@@ -37,7 +37,12 @@ html {
   content: "❖";
   position: absolute;
   left: -18px;
-  top: 0;
+  bottom: 0;
+}
+.box .list dt em {
+  padding: 0 5px;
+  font-style: normal;
+  font-size: 40px;
 }
 .box .list dd {
   margin-bottom: 50px;
